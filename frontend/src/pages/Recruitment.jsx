@@ -6,7 +6,7 @@ import axios from "axios";
 const skillSetsArray = [
   {
     Id: 1,
-    skillSetName: "Select a skill",
+    skillSetName: "Select a skill", 
   },
   {
     Id: 2,

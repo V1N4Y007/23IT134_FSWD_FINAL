@@ -15,7 +15,7 @@ const ReferralSection = () => {
       "http://localhost:4000/api/v1/referrals/createReferral",
       {
         jobId,
-        employeeName,
+        employeeName, 
         employeeId,
         candidateName,
         mobileNumber,

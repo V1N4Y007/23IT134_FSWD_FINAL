@@ -10,7 +10,7 @@ const InterviewFeedback = () => {
   const [overallRating, setOverallRating] = useState("");
   const [comments, setComments] = useState("");
   const [hired, setHired] = useState("");
-  const [level, setLevel] = useState("");
+  const [level, setLevel] = useState(""); 
   const handleSaveButtonClick = async (e) => {
     e.preventDefault();
     const res = await axios.post(

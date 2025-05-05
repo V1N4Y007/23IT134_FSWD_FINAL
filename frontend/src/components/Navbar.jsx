@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          EMS-Abhishek Sharma
+          23IT134
         </Link>
         <button
           className="navbar-toggler"

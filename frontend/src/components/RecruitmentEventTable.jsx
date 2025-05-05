@@ -8,7 +8,7 @@ const RecruitmentEventTable = ({ referralDetails }) => {
   const [refId, setRefId] = useState("");
   const handleScheduleButtonClick = (referralId) => {
     setRefId(referralId);
-    setShowEventSection(true);
+    setShowEventSection(true); 
   };
   return (
     <div>

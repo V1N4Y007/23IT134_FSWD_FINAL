@@ -8,7 +8,7 @@ const RecruitmentEvent = () => {
   const handleSearchButtonClick = async (e) => {
     e.preventDefault();
     const res = await axios.post(
-      "http://localhost:4000/api/v1/referrals/find",
+      "http://localhost:4000/api/v1/referrals/find", 
       {
         jobId,
       },

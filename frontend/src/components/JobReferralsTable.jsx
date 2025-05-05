@@ -8,7 +8,7 @@ const JobReferralsTable = ({ jobDetails }) => {
     console.log(jobId);
     setShowReferralSection(true);
   };
-  return (
+  return ( 
     <div>
       {jobDetails.length != 0 && (
         <table className="table table-striped">

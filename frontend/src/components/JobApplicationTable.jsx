@@ -4,7 +4,7 @@ import DeleteJobIdButton from "./DeleteJobIdButton";
 
 const JobApplicationTable = () => {
   const [myData, setMyData] = useState([]);
-  useEffect(() => {
+  useEffect(() => { 
     const getData = async () => {
       const res = await axios.get("http://localhost:4000/api/v1/jobs/all");
       setMyData(res.data.jobs);

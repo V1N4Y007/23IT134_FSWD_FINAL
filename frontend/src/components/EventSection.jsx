@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const EventSection = ({ referralId }) => {
   const [location, setLocation] = useState("");
   const [timeFrom, setTimeFrom] = useState("");
-  const [timeTo, setTimeTo] = useState("");
+  const [timeTo, setTimeTo] = useState(""); 
   const handleCreateEventButtonClick = async (e) => {
     e.preventDefault();
     const res = await axios.post(
